@@ -38,7 +38,7 @@ def main():
                 return 
             for obj2 in shots:
                  if obj in asteroids and obj.collide_with(obj2):
-                    obj.kill()
+                    obj.split()
                     obj2.kill()
 
 
